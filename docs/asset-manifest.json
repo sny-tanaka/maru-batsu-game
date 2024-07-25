@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/maru-batsu-game/static/css/main.82af2b02.css",
+    "main.js": "/maru-batsu-game/static/js/main.bfc8d410.js",
+    "static/js/27.57bd240e.chunk.js": "/maru-batsu-game/static/js/27.57bd240e.chunk.js",
+    "index.html": "/maru-batsu-game/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.82af2b02.css",
+    "static/js/main.bfc8d410.js"
+  ]
+}
