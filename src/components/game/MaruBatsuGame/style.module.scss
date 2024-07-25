@@ -1,0 +1,19 @@
+@use '@/variables' as var;
+
+.maru_batsu_game {
+  padding: 16px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.red {
+  color: var.$red;
+}
+
+.blue {
+  color: var.$blue;
+}

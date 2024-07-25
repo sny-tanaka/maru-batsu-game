@@ -1,14 +1,12 @@
 import { type Meta, type StoryObj } from '@storybook/react';
 
-import { CustomNavLink } from './CustomNavLink';
+import { Grid3x3 } from './Grid3x3';
 
-type T = typeof CustomNavLink;
+type T = typeof Grid3x3;
 
 export default {
-  component: CustomNavLink,
-  args: {
-    to: '/',
-  },
+  component: Grid3x3,
+  args: {},
 } satisfies Meta<T>;
 
 export const Default: StoryObj<T> = {};

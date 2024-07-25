@@ -1,7 +1,9 @@
+import { MaruBatsuGame } from '@/components/game/MaruBatsuGame/MaruBatsuGame';
+
 export const Page = () => {
-    return (
-        <div>
-            <h1>Root</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <MaruBatsuGame />
+    </div>
+  );
+};

@@ -1,0 +1,32 @@
+@use '@/variables' as var;
+
+.piece_view {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var.$white;
+  font-size: 100px;
+}
+
+.red {
+  color: var.$red;
+}
+
+.blue {
+  color: var.$blue;
+}
+
+@keyframes blinking {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.older {
+  animation: blinking 1s ease-in-out infinite alternate;
+}

@@ -1,0 +1,17 @@
+@use '@/variables' as var;
+
+$grid-wh: 30vw;
+
+.grid {
+  display: grid;
+  grid-template-rows: $grid-wh $grid-wh $grid-wh;
+  grid-template-columns: $grid-wh $grid-wh $grid-wh;
+
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var.$white;
+    background-color: var.$gray;
+  }
+}
