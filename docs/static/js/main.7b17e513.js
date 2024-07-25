@@ -1,4 +1,4 @@
-/*! For license information please see main.bfc8d410.js.LICENSE.txt */
+/*! For license information please see main.7b17e513.js.LICENSE.txt */
 (() => {
   'use strict';
   var e = {
@@ -13829,7 +13829,14 @@
         };
       ue
         .createRoot(document.getElementById('root'))
-        .render((0, bu.jsx)(mu, { children: (0, bu.jsx)(ae, { children: (0, bu.jsx)(Du, {}) }) })),
+        .render(
+          (0, bu.jsx)(mu, {
+            children: (0, bu.jsx)(ae, {
+              basename: '/maru-batsu-game',
+              children: (0, bu.jsx)(Du, {}),
+            }),
+          })
+        ),
         Vu();
     })();
 })();
